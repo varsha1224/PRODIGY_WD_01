@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-pzjw8V+1DRD+q3GFWfCADPz5q5ex5yLdw/JY6nBqIc5KtqFCwOmFGoaA/TvA4Q" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1bd8fbf9cc.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <title>Foodie's Kitchen</title>
+</head>
+
+<body>
+  <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#" style="color: #EC994B;"><i class="fa-solid fa-burger"></i>Foodie's Kitchen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+  <!-- Home Page -->
+    <div id="home" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./public/images/food_home_1.jpg" alt="First">
+          <div class="first-pic text-center">
+            <p class="tagline">SAVOR THE FLAVORFUL SYMPHONY</p>
+            <h5 class="pic-heading">Welcome to Foodie's Kitchen</h5>
+            <p class="pic-para">Experience culinary delight in a warm and inviting atmosphere.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/images/food_home_2.jpg" alt="Second">
+          <div class="second-pic text-center">
+            <p class="tagline">SEASONAL SENSATIONS</p>
+            <h5 class="pic-heading">Savor Flavors Inspired by the Seasons</h5>
+            <p class="pic-para">Savor seasonal delights crafted with fresh, seasonal ingredients.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/images/food_home_3.jpg" alt="Third">
+          <div class="third-pic text-center">
+            <p class="tagline">FAMILY FEASTS</p>
+            <h5 class="pic-heading">Create Lasting Memories with Joyful Family Dining</h5>
+            <p class="pic-para">Create lasting memories with joyful family dining experiences.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/images/food_home_4.jpg" alt="Fourth">
+          <div class="fourth-pic text-center">
+            <p class="tagline">MOUTH-WATERING INDULGENCE</p>
+            <h5 class="pic-heading">Experience the Delight of Irresistible Cuisine</h5>
+            <p class="pic-para">Experience the delight of irresistible cuisine in every bite.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#home" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#home" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container"> 
+        
+  <!-- Content Sections -->
+    <section class="section about text-center" aria-labelledby="about-label" id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <figure class="about-banner">
+                          <img src="./public/images/restaurant.jpg" width="570" height="570" loading="lazy"
+                              alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
+                          
+                      </figure>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="about-content">
+                          <p class="label-2 section-subtitle" id="about-label" style="color: #EC994B;">About Us</p>
+                          <h2 class="headline-1 section-title">Learn about the story of Foodie's Kitchen...</h2>
+                          <p class="section-text">
+                            Welcome to Foodie's Kitchen, where culinary delight meets a warm, inviting atmosphere. 
+                            At Foodie's Kitchen, we are passionate about creating memorable dining experiences for our guests. 
+                            Our chefs skillfully craft each dish with a blend of fresh, locally-sourced ingredients and innovative flavors. 
+                            From savory appetizers to delectable main courses and indulgent desserts, our diverse menu caters to every palate. 
+                            Embracing a commitment to excellence, we take pride in providing a dining ambiance that is as comforting as it is chic. 
+                            Whether you're seeking a cozy date night, a family celebration, or a gathering with friends, Foodie's Kitchen invites you to savor the moments and relish the exquisite tastes that make every visit a culinary journey. 
+                            Join us in the heart of flavor, where good food and great company come together to create an experience that lingers long after the last bite.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </section>
+
+  <!-- Menu Section -->
+    <section id="menu" class="mb-4">
+      <h2>Menu</h2>
+      <p>Explore our delicious offerings...</p>
+
+      <div class="menu">
+          <div class="menu-item">
+              <img src="./public/images/lasagna.jpg" alt="Lasagna">
+              <h3>Lasagna</h3>
+              <p class="description"> Layers of pasta, vegetables, tomato sauce, and melted cheese, baked to perfection.</p>
+              <p class="price">Rs.150.99</p>
+          </div>
+
+          <div class="menu-item">
+              <img src="./public/images/paneer_tikka.jpg" alt="Paneer Tikka">
+              <h3>Paneer Tikka</h3>
+              <p class="description">Marinated and grilled cubes of paneer, often served with mint chutney.</p>
+              <p class="price">Rs.180.99</p>
+          </div>
+
+          <div class="menu-item">
+              <img src="./public/images/caprese.jpg" alt="Caprese Salad">
+              <h3>Caprese Salad</h3>
+              <p class="description">A simple salad made with fresh tomatoes, mozzarella cheese, basil, olive oil, and balsamic glaze.</p>
+              <p class="price">Rs.120.99</p>
+          </div>
+
+          <div class="menu-item">
+              <img src="./public/images/eggplant.jpg" alt="Eggplant Parmesan">
+              <h3>Eggplant Parmesan</h3>
+              <p class="description">Slices of eggplant coated in breadcrumbs, baked with marinara sauce, and topped with melted cheese.</p>
+              <p class="price">Rs.240.99</p>
+          </div>
+
+          <div class="menu-item">
+              <img src="./public/images/sushi.jpg" alt="Vegetarian Sushi Rolls">
+              <h3>Vegetarian Sushi Rolls</h3>
+              <p class="description">Sushi rolls filled with avocado, cucumber, carrots, and other vegetables, often served with soy sauce and wasabi.</p>
+              <p class="price">Rs.160.99</p>
+          </div>
+
+          <div class="menu-item">
+              <img src="./public/images/biryani.jpg" alt="Vegetable Biryani">
+              <h3>Vegetable Biryani</h3>
+              <p class="description">A flavorful and aromatic rice dish cooked with basmati rice, mixed vegetables, and a blend of spices.</p>
+              <p class="price">Rs.220.99</p>
+          </div>
+      </div>
+  </section>
+
+    
+<!-- Contact Section -->
+<section id="contact" class="reservation">
+  <div class="container">
+
+      <div class="form reservation-form bg-black-10">
+
+          <!-- Reservation Form -->
+          <form action="" class="form-left">
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+              <p class="form-text text-center">Booking request <a href="tel:+919443012345" class="link">+91-94430-12345</a> or fill out the order form</p>
+
+              <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                  <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+                  <div class="icon-wrapper">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                      <select name="person" class="input-field">
+                          <option value="1-person">1 Person</option>
+                          <option value="2-person">2 Person</option>
+                          <option value="3-person">3 Person</option>
+                          <option value="4-person">4 Person</option>
+                          <option value="5-person">5 Person</option>
+                          <option value="6-person">6 Person</option>
+                          <option value="7-person">7 Person</option>
+                      </select>
+                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                      <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                      <input type="date" name="reservation-date" class="input-field">
+                      <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <select name="time" class="input-field">
+                        <option value="12:00 PM">12:00 PM</option>
+                        <option value="1:00 PM">1:00 PM</option>
+                        <option value="2:00 PM">2:00 PM</option>
+                        <option value="3:00 PM">3:00 PM</option>
+                        <option value="4:00 PM">4:00 PM</option>
+                        <option value="5:00 PM">5:00 PM</option>
+                        <option value="6:00 PM">6:00 PM</option>
+                        <option value="7:00 PM">7:00 PM</option>
+                        <option value="8:00 PM">8:00 PM</option>
+                        <option value="9:00 PM">9:00 PM</option>
+                        <option value="10:00 PM">10:00 PM</option>
+                    </select>
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+                
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Book A Table</span>
+              </button>
+          </form>
+
+          <!-- Contact Information -->
+          <div class="form-right text-center" style="background-image: url('./public/images/food_home_2.jpg')">
+              <h2 class="headline-1 text-center" id="contact-label">Contact Us</h2>
+
+              <!-- Booking Request -->
+              <p class="contact-label">Booking Request</p>
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+91-94430-12345</a>
+              <div class="separator"></div>
+
+              <!-- Location -->
+              <p class="contact-label">Location</p>
+              <address class="body-4">
+                  XYZ St, PQR Avenue, <br>
+                  Coimbatore, India
+              </address>
+
+              <!-- Lunch Time -->
+              <p class="contact-label">Lunch Time</p>
+              <p class="body-4">
+                  Monday to Sunday <br>
+                  11.00 am - 2.30pm
+              </p>
+
+              <!-- Dinner Time -->
+              <p class="contact-label">Dinner Time</p>
+              <p class="body-4">
+                  Monday to Sunday <br>
+                  05.00 pm - 10.00pm
+              </p>
+          </div>
+
+      </div>
+
+  </div>
+</section>
+
+
+<section id="testimonial">
+    <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h2 class="text-body-emphasis">"Foodie's Kitchen has truly captivated my discerning palate with its exceptional culinary prowess, presenting a symphony of flavors meticulously crafted from the finest ingredients, coupled with an inviting ambiance and impeccable service, making it a standout dining destination in my culinary explorations."</h2>
+          <div class="circular-frame">
+            <img class="circular mt-5" src="./public/images/chef.jpg" alt="Chef" />
+          </div>
+          <p class="col-lg-8 mx-auto lead mt-2" style="color: #EC994B;">
+            Coimbatore, Tamil Nadu
+          </p>
+        </div>
+        <div class="sponsors">
+          <div class="row">
+             <div class="col-sm-12 col-lg-3"><img src="./public/images/critic_1.jpg" height="80" /></div>
+             <div class="col-sm-12 col-lg-3"><img src="./public/images/critic_2.jpg" height="80" /></div>
+             <div class="col-sm-12 col-lg-3"><img src="./public/images/critic_3.jpg" height="80" /></div>
+             <div class="col-sm-12 col-lg-3"><img src="./public/images/critic_4.jpg" height="80" /></div>
+          </div>
+       </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Footer Section -->
+  <footer class="bg-dark text-white py-4">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="mb-4">About Us</h5>
+            <p class="text-muted">Discover a world of exquisite flavors at Foodie's Kitchen, where passion meets culinary expertise. Join us for an unforgettable dining experience.</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-4">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#about" class="text-white">About Us</a></li>
+              <li><a href="#menu" class="text-white">Menu</a></li>
+              <li><a href="#contact" class="text-white">Contact</a></li>
+              <li><a href="#testimonial" class="text-white">Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-4">Connect With Us</h5>
+            <p class="text-muted">Follow us on social media for the latest updates and special offers.</p>
+            <!-- Add your social media icons and links here -->
+            <div class="social-icons">
+              <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="text-white"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+    <!-- Bootstrap JavaScript and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
